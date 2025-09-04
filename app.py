@@ -10,8 +10,8 @@ label_map = {
 }
 
 # --- URLs de l'API FastAPI déployée sur Azure
-API_TRAIN_URL = "https://mlsleepapi4-e6b7hhdzh0b9bjbt.francecentral-01.azurewebsites.net/train"
-API_PREDICT_URL = "https://mlsleepapi4-e6b7hhdzh0b9bjbt.francecentral-01.azurewebsites.net/predict"
+API_TRAIN_URL = "https://mlsleep-api.onrender.com/train"
+API_PREDICT_URL = "https://mlsleep-api.onrender.com/predict"
 
 # --- Lancer l’entraînement
 @st.cache_resource(show_spinner=False)
